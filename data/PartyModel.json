@@ -1,0 +1,151 @@
+[
+  {
+    "_dataType": "demo"
+  },
+  {
+    "_entity": "moqui.party.Party",
+    "partyId": "PER123",
+    "partyTypeId": "PERSON"
+  },
+  {
+  "_entity": "moqui.party.Party",
+  "partyId": "ORG456",
+  "partyTypeId": "ORGANIZATION"
+},
+  {
+    "_entity": "moqui.party.Person",
+    "partyId": "PER123",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthDate": "1990-01-01"
+  },
+  {
+    "_entity": "moqui.party.Organization",
+    "partyId": "ORG456",
+    "organizationName": "ABC"
+  },
+  {
+    "_entity": "moqui.party.PartyRole",
+    "partyId": "PER123",
+    "roleTypeId": "CUSTOMER"
+  },
+  {
+    "_entity": "moqui.party.PartyRole",
+    "partyId": "PER123",
+    "roleTypeId": "EMPLOYEE"
+  },
+  {
+    "_entity": "moqui.party.PartyRole",
+    "partyId": "ORG456",
+    "roleTypeId": "EMPLOYER"
+  },
+  {
+    "_entity": "moqui.party.ContactMech",
+    "contactMechId": "10000",
+    "contactMechTypeEnumId": "TELECOM_NUMBER",
+    "TelecomNumber": {
+      "countryCode": "1",
+      "areaCode": "123",
+      "contactNumber": "4567890"
+    }
+  },
+  {
+    "_entity": "moqui.party.ContactMech",
+    "contactMechId": "10001",
+    "contactMechTypeEnumId": "EMAIL_ADDRESS",
+    "infoString": "example@email.com"
+  },
+  {
+    "_entity": "moqui.party.ContactMech",
+    "contactMechId": "10002",
+    "contactMechTypeEnumId": "POSTAL_ADDRESS",
+    "PostalAddress": {
+      "toName": "John Doe",
+      "attnName": "Office",
+      "address1": "123 Main St",
+      "address2": "Suite 100",
+      "city": "Metropolis",
+      "postalCode": "12345"
+    }
+  },
+  {
+    "_entity": "moqui.party.ContactMech",
+    "contactMechId": "10003",
+    "contactMechTypeEnumId": "POSTAL_ADDRESS",
+    "PostalAddress": {
+      "toName": "John Doe",
+      "attnName": "Home",
+      "address1": "123 Local St",
+      "city": "Metropolis",
+      "postalCode": "12345"
+    }
+  },
+
+
+  {
+    "_entity": "moqui.party.ContactMech",
+    "contactMechId": "10004",
+    "contactMechTypeEnumId": "POSTAL_ADDRESS",
+    "PostalAddress": {
+      "toName": "SoHo Store",
+      "attnName": "Home",
+      "address1": "123 Broome St",
+      "city": "New York",
+      "postalCode": "10012"
+    }
+  },
+  {
+    "_entity": "moqui.party.ContactMechPurpose",
+    "contactMechPurposeId": "WORK"
+  },
+  {
+    "_entity": "moqui.party.ContactMechPurpose",
+    "contactMechPurposeId": "HOME"
+  },
+  {
+    "_entity": "moqui.party.ContactMechPurpose",
+    "contactMechPurposeId": "OFFICE"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "PER123",
+    "contactMechId": "10000",
+    "contactMechPurposeId": "WORK",
+    "fromDate": "2010-01-01"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "PER123",
+    "contactMechId": "10001",
+    "contactMechPurposeId": "WORK",
+    "fromDate": "2010-01-01"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "PER123",
+    "contactMechId": "10002",
+    "contactMechPurposeId": "WORK",
+    "fromDate": "2010-01-01"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "PER123",
+    "contactMechId": "10003",
+    "contactMechPurposeId": "HOME",
+    "fromDate": "2005-01-01"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "ORG456",
+    "contactMechId": "10000",
+    "contactMechPurposeId": "OFFICE",
+    "fromDate": "2010-01-01"
+  },
+  {
+    "_entity": "moqui.party.PartyContactMech",
+    "partyId": "ORG456",
+    "contactMechId": "10002",
+    "contactMechPurposeId": "OFFICE",
+    "fromDate": "2000-01-01"
+  }
+]
