@@ -1,6 +1,0 @@
-<entity-facade-xml type="seed">
-    <relationshipmgr.Tutorial tutorialId="TestOne"
-                       description="Test one description."/>
-    <relationshipmgr.Tutorial tutorialId="TestTwo"
-                       description="Test two description."/>
-</entity-facade-xml>
