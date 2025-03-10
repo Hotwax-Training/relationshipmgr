@@ -49,6 +49,9 @@
         <relationship type="one" title="PartyRoleType" related="moqui.basic.Enumeration">
             <key-map field-name="partyRoleTypeEnumId"/>
         </relationship>
+        <relationship type="one" related="Party">
+            <key-map field-name="partyId"/>
+        </relationship>
 
         <seed-data>
             <moqui.basic.EnumerationType enumTypeId="PartyRoleType" description="PartyRoleType">
