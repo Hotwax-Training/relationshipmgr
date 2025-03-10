@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/entity-definition-3.xsd">
-    <!--<entity entity-name="xyz" package="xyz" use="transaction" sequence-primary-use-uuid="true" sequence-bank-size="50" sequence-primary-stagger="5" sequence-secondary-padded-length="4">-->
-    <!--<entity entity-name="Party" package="assignment" table-name="try" no-update-stamp="true" short-alias="pp" create-only="false" enable-audit-log="true"  >-->
     <entity entity-name="Party" package="assignment">
         <description>This is party Model</description>
         <field name="partyId" type="id" is-pk="true"/>
@@ -12,7 +10,7 @@
         <relationship type="one" title="PartyType" related="moqui.basic.Enumeration">
             <key-map field-name="partyTypeEnumId"/>
         </relationship>
-
+       <!--Predefined set of values jo kisi field k valid options batati h-->
         <seed-data>
             <moqui.basic.EnumerationType enumTypeId="PartyType" description="PartyType">
                 <moqui.basic.Enumeration description="PERSON" enumId="PERSON" enumTypeId="PartyType"/>
