@@ -3,44 +3,44 @@
     "_dataType": "demo"
   },
   {
-    "_entity": "moqui.party.Party",
+    "_entity": "assignment.Party",
     "partyId": "PER123",
     "partyTypeId": "PERSON"
   },
   {
-  "_entity": "moqui.party.Party",
+  "_entity": "assignment.Party",
   "partyId": "ORG456",
   "partyTypeId": "ORGANIZATION"
 },
   {
-    "_entity": "moqui.party.Person",
+    "_entity": "assignment.Person",
     "partyId": "PER123",
     "firstName": "John",
     "lastName": "Doe",
     "birthDate": "1990-01-01"
   },
   {
-    "_entity": "moqui.party.Organization",
+    "_entity": "assignment.Organization",
     "partyId": "ORG456",
     "organizationName": "ABC"
   },
   {
-    "_entity": "moqui.party.PartyRole",
+    "_entity": "assignment.PartyRole",
     "partyId": "PER123",
     "roleTypeId": "CUSTOMER"
   },
   {
-    "_entity": "moqui.party.PartyRole",
+    "_entity": "assignment.PartyRole",
     "partyId": "PER123",
     "roleTypeId": "EMPLOYEE"
   },
   {
-    "_entity": "moqui.party.PartyRole",
+    "_entity": "assignment.PartyRole",
     "partyId": "ORG456",
     "roleTypeId": "EMPLOYER"
   },
   {
-    "_entity": "moqui.party.ContactMech",
+    "_entity": "assignment.ContactMech",
     "contactMechId": "10000",
     "contactMechTypeEnumId": "TELECOM_NUMBER",
     "TelecomNumber": {
@@ -50,13 +50,13 @@
     }
   },
   {
-    "_entity": "moqui.party.ContactMech",
+    "_entity": "assignment.ContactMech",
     "contactMechId": "10001",
     "contactMechTypeEnumId": "EMAIL_ADDRESS",
     "infoString": "example@email.com"
   },
   {
-    "_entity": "moqui.party.ContactMech",
+    "_entity": "assignment.ContactMech",
     "contactMechId": "10002",
     "contactMechTypeEnumId": "POSTAL_ADDRESS",
     "PostalAddress": {
@@ -69,7 +69,7 @@
     }
   },
   {
-    "_entity": "moqui.party.ContactMech",
+    "_entity": "assignment.ContactMech",
     "contactMechId": "10003",
     "contactMechTypeEnumId": "POSTAL_ADDRESS",
     "PostalAddress": {
@@ -83,7 +83,7 @@
 
 
   {
-    "_entity": "moqui.party.ContactMech",
+    "_entity": "assignment.ContactMech",
     "contactMechId": "10004",
     "contactMechTypeEnumId": "POSTAL_ADDRESS",
     "PostalAddress": {
@@ -95,54 +95,54 @@
     }
   },
   {
-    "_entity": "moqui.party.ContactMechPurpose",
+    "_entity": "assignment.ContactMechPurpose",
     "contactMechPurposeId": "WORK"
   },
   {
-    "_entity": "moqui.party.ContactMechPurpose",
+    "_entity": "assignment.ContactMechPurpose",
     "contactMechPurposeId": "HOME"
   },
   {
-    "_entity": "moqui.party.ContactMechPurpose",
+    "_entity": "assignment.ContactMechPurpose",
     "contactMechPurposeId": "OFFICE"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "PER123",
     "contactMechId": "10000",
     "contactMechPurposeId": "WORK",
     "fromDate": "2010-01-01"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "PER123",
     "contactMechId": "10001",
     "contactMechPurposeId": "WORK",
     "fromDate": "2010-01-01"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "PER123",
     "contactMechId": "10002",
     "contactMechPurposeId": "WORK",
     "fromDate": "2010-01-01"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "PER123",
     "contactMechId": "10003",
     "contactMechPurposeId": "HOME",
     "fromDate": "2005-01-01"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "ORG456",
     "contactMechId": "10000",
     "contactMechPurposeId": "OFFICE",
     "fromDate": "2010-01-01"
   },
   {
-    "_entity": "moqui.party.PartyContactMech",
+    "_entity": "assignment.PartyContactMech",
     "partyId": "ORG456",
     "contactMechId": "10002",
     "contactMechPurposeId": "OFFICE",
