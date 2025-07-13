@@ -4,7 +4,7 @@
     <screen-facade>
         <screen location="component://webroot/screen/webroot/apps.xml">
             <subscreens-item name="D" menu-title="DataModel" menu-index="99"
-                             location="component://relationshipmgr/screen/task1.xml"/>
+                             location="component://relationshipmgr/screen/PartyScreens.xml"/>
         </screen>
     </screen-facade>
 </moqui-conf>
