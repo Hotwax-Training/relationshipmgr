@@ -5,12 +5,12 @@
         <description>This is party Model</description>
         <field name="partyId" type="id" is-pk="true"/>
         <field name="partyTypeEnumId" type="id"/>
-        <!--ek party type ki bhut sari party ho sakti h-->
+        <!--One partyType can have multiple parties-->
         <!--This relationship links the partyTypeEnumId field to the Enumeration entity in the moqui.basic package.-->
         <relationship type="one" title="PartyType" related="moqui.basic.Enumeration">
             <key-map field-name="partyTypeEnumId"/>
         </relationship>
-       <!--Predefined set of values jo kisi field k valid options batati h-->
+       <!--Predefined set of values which defines the valid options of any field-->
         <seed-data>
             <moqui.basic.EnumerationType enumTypeId="PartyType" description="PartyType">
                 <moqui.basic.Enumeration description="PERSON" enumId="PERSON" enumTypeId="PartyType"/>
